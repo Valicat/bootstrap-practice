@@ -1,24 +1,22 @@
 
 h4 {
- text-align: center;
+ text-align: center;/*1 - aligned icons*/
 }
 .container {
-  background-color: #fbb117;
-  height: 100%;
-  width: auto;
+  background-color: #fbb117;/*2- made contianer yellow*/
+  height: 100%;/*3 - made sure container size shrinks with page*/
+  width: auto;/*4 - centered container*/
 }
 .jumbotron{
-  margin-top: 15px;
-  color: white;
-  text-align: center;
+  margin-top: 15px;/*5 - added space so caontiner wasnt right next to edge of jumbotron*/
+  text-align: center;/*6 - centered jumbotron text*/
 }
 .panel-title {
-  text-align: center;
-  color: #347c17;
+  text-align: center;/*7 - centered step numbers*/
+  color: #347c17;/*8 - changed color of step numbers*/
 }
 .panel-body {
-  background-color: #f0f8ff;
-  font-size: 15px;
-  text-transform: uppercase;
-
+  background-color: #f0f8ff;/*9 - changed color to light blue*/
+  font-size: 15px;/*10 - made font size more readable*/
+  text-transform: uppercase;/*11 - made text all uppercase to make content stand out*/
 }
